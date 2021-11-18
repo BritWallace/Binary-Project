@@ -20,8 +20,12 @@ body {
   border-bottom: 25px; 
 }
 .container {
+  border: solid black 2px;
   border-radius: 25px;
-  padding: 25;
+  padding: 50px;
+  border-width: thick;
+  height: 300px;
+  width: 300px;
 }
 #formOne { 
   border-radius: 25px;
