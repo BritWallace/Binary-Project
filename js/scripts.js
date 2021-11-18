@@ -1,13 +1,16 @@
-const binaryNumber = "1100";
+function convert(input, base) {
+  let number = parseInt(input);
+  const answer = (number).toString(base);
+  console.log(answer);
+  return answer;
+}
 
-console.log(parseInt(binaryNumber,2));
-
-//output--> 12
-
-
-const hex = "c";
-
-console.log(parseInt(hex,16));  //hex base-16
-
-//output --> 12
-
+$(document).ready(function(){
+  $("#conversion-form").submit(function(event){
+    event.preventDefault();
+    const binaryNumber = $("input:radio[name=unit]:checked").val();
+    const inputNumber = $("#binary-input").val();
+    $("#result").text(convert(inputNumber, binaryNumber));
+    $("#result").show();
+  });
+});
