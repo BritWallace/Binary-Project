@@ -1,0 +1,61 @@
+#_{Binary to decimal project.}_
+
+#### By _**{Brit Wallace}**_
+
+#### _{Binary Project}_
+
+## Technologies Used
+
+*_HTML_
+*_CSS_
+*_VsCode text editor_
+
+## Description
+
+_{This is my portfolio with links to my GitHub projects. Just click on the link and you will be transported into each project listed.  There is a brief about me section and a Email link to contact me with questions or commits.}_
+
+## Tests
+```
+Describe: toBinary()
+Test: Receives a number as an argument and console.log()s that number.
+Code: 
+toBinary(3);
+Expected Output: '3'
+```
+```
+Describe: toBinary(1100)
+Test: Used parseInt ()
+Code: recieved output
+Expected Output:11 
+```
+Describe: toBinary()
+Test: Create HTML to aid in various base, BI to change base 2 vs 8 vs 16  
+Code: Write functions which would aid based on button clicked 
+Expected Output: 
+```
+
+## Setup/Installation Requirements
+
+*_I first made a CSS directory with some HTML and CSS files inside. 
+*Using VsCode text editor, I began to build the simple HTML outline.
+*I then went on to style with CSS.
+
+
+## Known Bugs
+
+* No Known Bugs
+
+
+# License
+
+MIT
+
+
+_{Feel free to reach out to me with any question, commits, or concerns. Email me @britwallace@gmail.com.  Link to my GitHub in the portfiolo.}_
+
+
+Copyright (c) _November-17-2021_ _Brit Wallace, Wajma Niazi, Nickolas Sullivan, and Ryan Rendon_
+
+
+
+

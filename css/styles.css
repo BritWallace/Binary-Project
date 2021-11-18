@@ -1,0 +1,38 @@
+
+h1 {
+  color: rgb(145, 184, 184);
+  font-size: 25pt;
+  text-shadow: 5px 5px 5px black;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(149, 149, 167);
+}
+.form-control {
+  color: rgb(90, 56, 121);
+}
+.form-group {
+  color: rgb(111, 21, 21);
+}
+.btn{
+  color: rgb(60, 13, 54);
+  text-shadow: aquamarine;
+  border-bottom: 25px; 
+}
+.container {
+  border-radius: 25px;
+  padding: 25;
+}
+#formOne { 
+  border-radius: 25px;
+  padding: 100px;
+}
+.results { 
+  display: none;
+  text-align: center;
+  padding: .5em;
+  float:var(zodiac);
+  position: relative;
+  bottom: 150px
+}
+
